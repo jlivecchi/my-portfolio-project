@@ -1,0 +1,213 @@
+/*BASE STYLE*/ 
+
+/*font-family: 'Libre Baskerville', serif;*/
+p {
+font-family: 'Open Sans', sans-serif;  
+}
+
+/*GRID*/ 
+
+.full-width {
+    width:1200px;
+}
+
+.third-width-1 { 
+    width:300px;
+    float:left;
+    margin-top:115px;
+    margin-right:100px;
+} 
+
+.third-width-2, .third-width-3 { 
+    float:left;
+    margin-top:115px;
+    width:390px;
+}
+
+.third-width-4 { 
+    float:left;
+    margin-left:200px;
+    width:200px;
+}
+
+
+.third-width-5, .third-width-6 { 
+    float:left;
+    width:100px;
+    margin-left:250px;
+}
+
+#intro {
+    height:800px;
+}
+
+#about {
+    height:1050px;
+}
+
+#portfolio {
+    height:950px;
+}
+
+#contact {
+    height:650px;
+}
+
+/*HEADER SECTION*/ 
+
+#intro .full-width {
+    background-color:#ffffff;
+    margin:0 0 0 100px; 
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size:64px;
+    padding-top:200px;
+}
+
+p {
+    font-size:48px;
+    font-weight:400;
+}
+
+#name {
+    color:#C44F9B;
+}
+
+nav {
+    float:right;
+}
+
+nav ul li { 
+    display:inline-block;
+}
+
+nav ul li a { 
+    color:#313131;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 24px;
+    font-weight:700;
+    padding:25px;
+    text-decoration:none;
+}
+
+/*SECTION ID ABOUT*/
+
+#about { 
+    background-color:#C44F9B;
+}
+
+#about .center /*text alignment*/{
+    font-family: 'Open Sans', sans-serif; 
+    font-size:24px;
+    text-align:center; 
+    padding-left:300px;
+    
+}
+
+#about-me /*h2*/{ 
+    font-family: 'Libre Baskerville', serif;
+    font-size:36px;
+    font-weight:700;
+    padding-left:300px;
+    padding-top:200px;
+    text-align:center; 
+}
+
+.color /*white span font color*/{ 
+    color:#ffffff;
+}
+
+#about img {  
+    border: 5px solid #ffffff;
+    display: block;
+    margin-left: 600px;
+}
+
+
+/*SECTION ID WORK*/ 
+
+#portfolio {
+    background-color:#ffffff;
+    margin: 0 0 0 100px;
+}
+
+#portfolio-work /*h2*/ {
+    color:#313131;
+    font-family: 'Libre Baskerville', serif;
+    font-size:36px;
+    font-weight:700;
+    padding-top:200px;
+    text-align:center; 
+}
+
+#holstee .third-width-1 { 
+    border:1px solid #b7b7b7; 
+}
+
+#jubilee .third-width-2 { 
+    border: 1px solid #b7b7b7; 
+}
+
+#rogue .third-width-3 { 
+    border: 1px solid #b7b7b7;
+}
+.work-images-captions /*p*/ { 
+    font-size:24px;
+    font-weight:700;
+}
+
+.image-description /*description underneath work-images-captions*/ { 
+    font-size:24px;
+}
+
+
+/*SECTION ID CONTACT*/ 
+
+#contact {
+    background-color:#C44F9B;
+}
+
+#connect /*h2*/ {
+    color:#ffffff;
+    font-family: 'Libre Baskerville', serif;
+    font-size:36px;
+    font-weight:700;
+    padding-left:230px;
+    padding-top:200px;
+    text-align:center; 
+}
+
+.contact-text { 
+    color:#ffffff;
+    font-size:24px;
+    line-height:5px;
+    width:400px;
+}
+
+h5 { 
+    color:#ffffff; 
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    font-weight:700; 
+    width:150px;
+}
+
+h6 { 
+    color:#ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    font-size:18px; 
+    font-weight:400;
+    position:absolute; 
+    margin-left:600px;
+    margin-top:340px;
+}
+
+#email-link { 
+    color:#ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    font-size:24px;
+    font-weight:400;
+    text-decoration:none;
+}

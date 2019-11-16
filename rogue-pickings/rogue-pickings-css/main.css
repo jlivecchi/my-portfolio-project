@@ -1,0 +1,159 @@
+/***BASE STYLE****/
+body {
+    font-family: 'Raleway', sans-serif;
+ }
+ 
+ #about, #menu, #locations, #gallery, #reviews, #content {
+     height:400px;
+ }
+ 
+ .green {
+     color:#77a466;
+     font-family: 'Montserrat', sans-serif;
+     font-weight:600;
+ }
+ 
+ h1, h3, h4 {
+     text-transform:uppercase;
+ }
+ 
+ h1 {
+     font-weight:700;
+     font-size:30px;
+     line-height:23px;
+ }
+ 
+ h3 {
+     font-size:18px;
+     line-height:23px;
+ }
+ 
+ h4 {
+     font-size:12px;
+     line-height:25px;
+ }
+ 
+ /****GRID****/
+ 
+ .full-width {
+     width: 1200px; 
+     margin: 0 auto;
+ }
+ 
+ .header-width-1 {
+     width: 500px;
+     float: left;
+     padding-top:20px;
+     padding-bottom:20px;
+ }
+ 
+ .header-width-2 {
+     float:left;
+     padding-top:20px;
+     width:700px;
+ }
+ 
+ .third-width-1, .third-width-2, .third-width-3 {
+     height:210px;
+     width: 360px;
+     float: left;
+     padding-left: 20px;
+ }
+ 
+ .third-width-2 {
+     padding-right:20px;
+ }
+ 
+ /***HEADER SECTION****/
+ 
+ #about .full-width {
+     clear:both;
+     height:288px;
+     border-top:3px solid #77a466;
+     border-right:0;
+     border-bottom:3px solid #77a466;
+     border-left:0; 
+     margin:0 0 0 30px;
+ }
+ 
+ nav { 
+     float:right;
+     padding:10px;
+ }
+ nav ul li { 
+     display:inline-block;
+ }
+ nav ul li a { 
+     color:#77a466;
+     font-size: 14px;
+     font-weight:700;
+     line-height: 23px;
+     padding-left: 20px;
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+ 
+ p {
+     font-family: 'Raleway', sans-serif;
+     line-height: 25px;
+     padding-bottom:20px;
+ }
+ 
+ 
+ /**** SECTION ID INFORMATION****/ 
+ 
+ .menu {
+     list-style: none;
+     padding: 0;
+ }
+ .menu li {
+     padding: 10px 0;
+     color:#77a466;
+ }
+ 
+ .third-width-1, .third-width-2 {
+     border-top: solid 1px #dedbdc;
+     border-right: solid 1px #dedbdc; 
+     border-bottom: solid 1px #dedbdc;
+     border-left: 0; 
+ }
+ 
+ .third-width-3 {
+     border-top: solid 1px #dedbdc;
+     border-right: 0; 
+     border-bottom: solid 1px #dedbdc;
+     border-left: 0; 
+ }
+ 
+ 
+ /*** CONTACT ****/ 
+ 
+ p { 
+     font-family:'Raleway', sans-serif;
+ }
+ 
+ 
+ /****FOOTER****/
+ 
+ footer {
+     clear:both;
+     font-family: 'Montserrat', sans-serif;
+     padding-top: 5px;
+     text-align:center;
+ }
+ 
+ #footer-text{ 
+     font-size:16px;
+     line-height:23px;
+ }
+ 
+ #fresh { 
+     color: #77a466;
+     font-family: 'Pacifico', cursive;
+     text-transform:lowercase;
+     font-size:16px;
+     font-weight:500;
+ }
+ /*** #fresh is the id for the word fresh; the color is green like the span class, but it's the only word with the unique font-family Pacifico. ****/ 
+ 
+ 
